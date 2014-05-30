@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang = "ko">
+	<head>
+		<meta charset = "UTF-8"/>
+		<title>DEMO</title>
+		<!-- GameLogic-->
+		<script src = "AA_Title.js"></script>
+		<script src = "AA_Credit.js"></script>
+		<script src = "AA_PlayGame.js"></script>
+		<script src = "AA_MultiPlay.js"></script>
+		<script src = "AA_WaitingGame.js"></script>
+		<script src = "MP_OtherPlayer.js"></script>
+		<script src = "PlayGame_Background.js"></script>
+		<script src = "PlayGame_Player.js"></script>
+		<script src = "PlayGame_Object.js"></script>
+		<script src = "PlayGame_Stage.js"></script>
+		<!-- GameFramework-->
+		<script src = "gfw/FrameCounter.js"></script>
+		<script src = "gfw/FrameSkipper.js"></script>
+		<script src = "gfw/InputSystem.js"></script>
+		<script src = "gfw/SoundManager.js"></script>
+		<script src = "gfw/GraphicObject.js"></script>
+		<script src = "gfw/SpriteAnimation.js"></script>
+		<script src = "gfw/SpriteObject.js"></script>
+		<script src = "gfw/ResourcePreLoader.js"></script>
+		<script src = "gfw/TransitionState.js"></script>
+		<script src = "gfw/Timer.js"></script>
+		<script src = "gfw/Util.js"></script>
+		<script src = "gfw/DebugSystem.js"></script>
+		<script src = "gfw/GameFramework.js"></script>
+		<script src = "gfw/socket.js"></script>
+		<!--GameInit-->
+		<script src = "gfw/gfw.js"></script>
+	</head>
+	<body>
+		<canvas id = "GameCanvas" width = "800" height = "600"
+		style = "position : absolute; top : 25px; left : 25px">
+		HTML5 Canvas를 지원하지 않습니다.
+		</canvas>
+		<div style="text-align: right;">
+		<br><b>SingleGame</b><br><br>
+		Move : ← ↑ → ↓ <br><br>Jump : 'x''<br><br>Stop : 'enter'<br><br><br>
+		<b>MultyGame</b><br><br>
+		Move : 'a' 'w' 'd' 's'<br><br>Attack : mouse_left
+		</div>
+	</body>
+</html>
